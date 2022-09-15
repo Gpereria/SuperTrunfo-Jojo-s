@@ -203,7 +203,10 @@ h2 {
 }
 
 .atributos .base p.valor{
-  
+    padding: 16px 0px;
+    margin: 0;
+    background-color: #b658b6;
+    border-radius: 9px;
 }
 
 
