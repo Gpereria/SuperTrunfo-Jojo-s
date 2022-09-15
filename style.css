@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Gideon+Roman&family=Playfair+Display:ital,wght@0,600;0,700;1,500;1,600&family=Silkscreen&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Mono", monospace;
+    min-height: 854px;
+    background-image: url(https://cdn.wallpapersafari.com/50/64/wzIbOy.png);
+    background-color: #000000;
+    background-size: initial;
+    background-position: center top;
+    background-repeat: no-repeat;
+    padding-bottom: 20vh;
+    color: #1F4741;
+}
+
+.alura-logo{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.page-title {
+  color:#fff;
+  margin: 5px 0;
+  font-family: 'Silkscreen', cursive;
+}
+
+
+button {
+  padding: 0.8rem 1.5rem;
+  margin: 1rem 0;
+  border-radius: 5px;
+  border: none;
+  font-size: 1rem;
+  cursor:pointer;
+  background: #ffd060;
+  color: #942f8a;
+}
+
+h2 {
+   color:#fff;
+}
+
+.space{
+    height: 432px;
+}
+
+#carta-jogador {
+  width: 360px;
+  height: 500px;
+  overflow: auto;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  margin: 0 auto;
+  display: flex;
+  align-items: flex-end;
+}
+
+#carta-jogador h3 {
+  text-align: center;
+}
+
+.carta-imagem {
+  border: 1px solid black;
+  height: 100px;
+  margin: 10px;
+}
+
+.carta-imagem img {
+  width: 100%;
+  height: 100%;
+}
+
+.carta-status {
+  height: 160px;
+  margin: 1.5rem;
+}
+
+.carta-status input {
+  margin: 20px 10px;
+}
+
+.opcoes {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.cards-area{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.hide-cards-area{
+    display: none;
+}
+
+.facing-icon{
+
+}
+
+.facing-icon img{
+    height: 260px;
+}
+/*Card*/
+
+.card {
+  width: 220px;
+  margin: 0 auto;
+  padding: 8px 10px;
+  border: 1px solid #d38c53;;
+  border-radius: 5px;
+  background-color: #943794;
+  font-family: 'Gideon Roman', cursive;
+  cursor: default;
+  height: 414px;
+}
+.name-card-cont{
+    height: 260px;
+    overflow: hidden;
+    width: 220px;
+    background-color: #ad3dad;
+    border-radius: 10px;
+}
+
+.unknown{
+    padding-top: 2px;
+    width: 100px;
+    height: 110px;
+    font-size: 100px;
+    margin: 65% auto;
+    color: #fff;
+    padding-left: 6px;
+    position: relative;
+    top: -74px;
+    z-index: 13;
+}
+
+.unknown-bg{
+    position: relative;
+    background-color: #362336;
+    top: 50%;
+    height: 80px;
+    width: 80px;
+    z-index: 0;
+    left: 50%;
+    transform: translate(-50%,-50%) rotate(45deg);
+    border: 1px solid #c49730;
+}
+
+.card img {
+  width: 100%;
+}
+
+.atributos {
+  color: #fff;
+}
+
+.atributos .base {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.atributos .base div {
+  border-bottom: 1px solid #e7b863;
+  border-radius: 8px;
+}
+
+.nome-carta{
+    font-family: 'Dancing Script', cursive;
+    position: relative;
+    margin: 0;
+    text-align: center;
+    color: #fff;
+    font-size: 26px;
+    width: 220px;
+    height: 30px;
+    top: 5px;
+    padding: 5px 0px;
+    border-radius: 22px;
+    background-color: #673967a8;
+}
+
+
+.atributos .base p.nome{
+    margin-top: 8px;
+    border: 1px solid #f05ff0;
+    border-radius: 6px;
+    padding: 2px 14px;
+    background-color: #b658b6;
+}
+
+.atributos .base p.valor{
+  
+}
+
+
+.atributos .attr-esp {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.opt-case{
+    margin: 0 auto;
+    width: 50%;
+    background-color: #362336a6;
+    border-radius: 20px;
+    padding: 8px 0px;
+    margin-top: 8px;
+}
+
+
+#resultado{
+  color: #fff;
+  font-size: 24px;
+}
+
+

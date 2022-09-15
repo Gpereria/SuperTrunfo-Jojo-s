@@ -5,11 +5,60 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Super Trunfo Jojos Bizzare Adventures</title>
+    <link rel="icon" type="image/x-icon" href="meu-icon.svg">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     
+  <header>
+    <title>
+      Imersão Dev - Aula 07
+    </title>
+  </header>
+  
+  <section>
+    <div class="container">
+        <div class="alura-logo">
+            <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-super-trunfo.png" class="page-logo" alt="">
+            <h1 class="page-title">- Super Trunfo -</h1>
+        </div>
+        <div class="space"></div>
+        <div class="hide-cards-area">
+        <div class="cards-area">
+            <div class='card-place' id="card-place">
+                <!-- Inicio card -->
+                <!-- Fim card -->
+            </div>
+            <div class="facing-icon">
+                <img src="https://en.sistematica.it/imgs/379/VS.png?s=original" alt="vs">
+            </div>
+            <div id="enemy">
+                <div class="card" id="enemy-card">
+                    <div class="unknown-bg"></div>
+                    <div class="unknown">?</div>
+                </div>
+            </div>
+        </div>
+        </div>
 
+        <div class="opt-case">
+            <h2>Escolha o seu atributo</h2>
+            <div class="opcoes" id="opcoes"></div>
+        </div>
 
-    
+      <button onclick="sortearCarta()" id="btnSortear">Sortear carta </button>
+     
+
+      <form id="form">
+
+        <button type="button" id="btnJogar" onclick="jogar()" disabled="false">Jogar</button>
+        <div id="resultado"></div>
+        
+      </form>
+    </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
