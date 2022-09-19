@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Super Trunfo Jojos Bizzare Adventures</title>
-    <link rel="icon" type="image/x-icon" href="meu-icon.svg">
+    <link rel="icon" type="image/x-icon" href="./icon/meu-icon.svg">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -19,8 +19,7 @@
   <section>
     <div class="container">
         <div class="alura-logo">
-            <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-super-trunfo.png" class="page-logo" alt="">
-            <h1 class="page-title">- Super Trunfo -</h1>
+            <h1 class="page-title">- Super Trunfo Jojo's -</h1>
         </div>
         <div class="space"></div>
         <div class="hide-cards-area">
@@ -30,12 +29,12 @@
                 <!-- Fim card -->
             </div>
             <div class="facing-icon">
-                <img src="https://en.sistematica.it/imgs/379/VS.png?s=original" alt="vs">
+              <img src="./icon/versus.svg" alt="versus" class="versus"/>
             </div>
             <div id="enemy">
                 <div class="card" id="enemy-card">
                     <div class="unknown-bg"></div>
-                    <div class="unknown">?</div>
+                    <div class="unknown"><img src="./icon/KQIcon.svg" alt="Go On"/></div>
                 </div>
             </div>
         </div>
@@ -46,19 +45,22 @@
             <div class="opcoes" id="opcoes"></div>
         </div>
 
-      <button onclick="sortearCarta()" id="btnSortear">Sortear carta </button>
+      <button id="btnSortear">Sortear carta  </button>
      
 
       <form id="form">
 
-        <button type="button" id="btnJogar" onclick="jogar()" disabled="false">Jogar</button>
+        <button type="button" id="btnJogar" disabled="false">Jogar</button>
         <div id="resultado"></div>
         
       </form>
+
     </div>
+    
     </section>
 
     <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
-    <script src="script.js"></script>
+    <!-- <script type="module" src="cartas.json"></script> -->
+    <script  type="module" src="script.js"></script>
 </body>
 </html>

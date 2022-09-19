@@ -1,0 +1,50 @@
+[
+    {
+    "nome": "Dio Brando",
+    "img":
+      "./card-img/Dio Brando.png",
+     "atributos": {
+      "estilo": 999,
+      "defesa": 60,
+      "ataque": 70
+    }
+  },
+  {
+    "nome": "Jotaro Kujo",
+    "img":
+      "./card-img/Jotaro.png",
+     "atributos": {
+      "estilo": 500,
+      "defesa": 80,
+      "ataque": 80
+    }
+  },
+  {
+    "nome": "Josuke Higashikata",
+    "img":
+      "./card-img/Josuke Hiogashikata.png",
+     "atributos": {
+      "estilo": 450,
+      "defesa": 90,
+      "ataque": 70
+    }
+  },
+  {
+    "nome": "Kira Yoshikage", 
+    "img":"./card-img/Kira Yoshikage.png",
+     "atributos": {
+      "estilo": 600,
+      "defesa": 50,
+      "ataque": 90
+    }
+  },
+  {
+    "nome": "Gyro Zeppeli", 
+    "img":"./card-img/Gyro Zeppeli.png",
+     "atributos": {
+      "estilo": 800,
+      "defesa": 50,
+      "ataque": 80
+    }
+  }
+]

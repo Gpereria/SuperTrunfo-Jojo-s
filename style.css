@@ -6,12 +6,11 @@ body {
     box-sizing: border-box;
     font-family: "Roboto Mono", monospace;
     min-height: 854px;
-    background-image: url(https://cdn.wallpapersafari.com/50/64/wzIbOy.png);
+    background-image: url("./img/bg-noskull.png");
     background-color: #000000;
     background-size: initial;
     background-position: center top;
     background-repeat: no-repeat;
-    padding-bottom: 20vh;
     color: #1F4741;
 }
 
@@ -110,7 +109,10 @@ h2 {
 }
 
 .facing-icon img{
-    height: 260px;
+  height: 250px;
+  background-color: #2b0c24ba;
+  border-radius: 50%;
+  margin: 0 16px;
 }
 /*Card*/
 
@@ -125,6 +127,10 @@ h2 {
   cursor: default;
   height: 414px;
 }
+
+#enemy-card{
+  background-image: url("./img/bg-card.png");
+}
 .name-card-cont{
     height: 260px;
     overflow: hidden;
@@ -134,24 +140,24 @@ h2 {
 }
 
 .unknown{
-    padding-top: 2px;
-    width: 100px;
-    height: 110px;
-    font-size: 100px;
-    margin: 65% auto;
-    color: #fff;
-    padding-left: 6px;
-    position: relative;
-    top: -74px;
-    z-index: 13;
+  padding-top: 0px;
+  width: 100px;
+  height: 110px;
+  font-size: 100px;
+  margin: 56% auto;
+  color: #fff;
+  padding-left: 1px;
+  position: relative;
+  top: -74px;
+  z-index: 13;
 }
 
 .unknown-bg{
     position: relative;
-    background-color: #362336;
+    background-color: #391e33;
     top: 50%;
-    height: 80px;
-    width: 80px;
+    height: 100px;
+    width: 100px;
     z-index: 0;
     left: 50%;
     transform: translate(-50%,-50%) rotate(45deg);
