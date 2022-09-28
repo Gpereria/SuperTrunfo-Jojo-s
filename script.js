@@ -68,19 +68,20 @@
     if(atributo != false){
         var resultDiv = document.getElementById("resultado");
     var elementResultado = "";
-  
+    
     if (cartaJogador.atributos[atributo] > cartaMaquina.atributos[atributo]) {
       // Jogador Ganhou
-      resultDiv.innerHTML = "Você Ganhou contra:";
+      resultDiv.innerHTML = "Você Ganhou!";
     } else if (
       cartaJogador.atributos[atributo] < cartaMaquina.atributos[atributo]
     ) {
       // Jogador Perdeu
-      resultDiv.innerHTML = "Você perdeu contra:";
+      resultDiv.innerHTML = "Você Venceu!";
     } else {
       // Empate
-      resultDiv.innerHTML = "Empate contra:";
+      resultDiv.innerHTML = "Você Empatou!";
     }
+     $('#resultado').fadeIn();
      var enCard = $('#enemy');
      enCard.fadeOut("fast",function(){
         displayCarta("enemy",cartaMaquina);

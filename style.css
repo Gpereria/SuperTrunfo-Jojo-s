@@ -1,5 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Gideon+Roman&family=Playfair+Display:ital,wght@0,600;0,700;1,500;1,600&family=Silkscreen&display=swap');
 
+
+@font-face {
+  font-family: 'zectorregular';
+  src: url('fonts/zector-webfont.woff2') format('woff2'),
+       url('fonts/zector-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -7,7 +17,6 @@ body {
     font-family: "Roboto Mono", monospace;
     min-height: 854px;
     background-image: url("./img/bg-noskull.png");
-    background-color: #000000;
     background-size: initial;
     background-position: center top;
     background-repeat: no-repeat;
@@ -18,11 +27,20 @@ body {
     display: flex;
     align-items: flex-start;
     flex-direction: column;
+    max-width: 300px;
+    width: 20%;
+}
+.alura-logo img{
+  width: 100%;
 }
 
 .container {
   text-align: center;
   padding: 20px;
+}
+
+.header{
+  display: flex;
 }
 
 .page-title {
@@ -120,7 +138,7 @@ h2 {
   width: 220px;
   margin: 0 auto;
   padding: 8px 10px;
-  border: 1px solid #d38c53;;
+  /* border: 1px solid #d38c53; */
   border-radius: 5px;
   background-color: #943794;
   font-family: 'Gideon Roman', cursive;
@@ -232,8 +250,17 @@ h2 {
 
 
 #resultado{
-  color: #fff;
-  font-size: 24px;
+  color: #ff8aca;
+  font-size: 43px;
+  width: 30%;
+  position: absolute;
+  margin: 0px 33%;
+  font-family: 'zectorregular';
+  background: #22041c;
+  padding: 8px 0;
+  border-radius: 65%;
+  border: 2px solid #b88419;
+  display: none;
 }
 
 
